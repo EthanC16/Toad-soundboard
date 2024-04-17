@@ -1,0 +1,61 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    background-color: lightblue;
+    color: black;
+}
+
+#toad-kit {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 90%;
+
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+.key {
+    border: 4px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    width: 130px;
+    height: 75px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    margin: 5%;
+}
+
+.key.active {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 10px red;
+    color: red;
+  }
+
+.key:active,
+.key:focus {
+    outline: none;
+    transform: scale(0.95);
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+img {
+    border-radius: 3%;
+}
