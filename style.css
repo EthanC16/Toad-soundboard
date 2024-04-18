@@ -100,3 +100,15 @@ img {
         font-size: 11px;
     }
   }
+
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    img {
+      max-width: 80px;
+    }
+
+    .key {
+        max-width: 80px;
+    }
+  }
